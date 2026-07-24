@@ -1,40 +1,21 @@
 import python from "../assets/img/python.png";
 import pandas from "../assets/img/pandas.png";
 import cpp from "../assets/img/c++..png";
-import Carousel from "react-multi-carousel";
-import cst from "../assets/img/CST-logo.webp";
+import cst from "../assets/img/cst_studio.png";
 import excel from "../assets/img/Excel_logo.png";
 import powerpoint from "../assets/img/PowerPoint.png";
-import matlab from "../assets/img/Matlab_Logo.png"; 
-import "react-multi-carousel/lib/styles.css";
+import matlab from "../assets/img/Matlab_Logo.png";
 import colorSharp from "../assets/img/color-sharp.png";
+import eagle from "../assets/img/Eagle.png";
 
 export const Skills = () => {
-  const responsive = {
-    superLargeDesktop: {
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
-
-  // ONLY language / tool based skills in carousel
   const tools = [
     { img: python, label: "Python" },
     { img: pandas, label: "NumPy & Pandas" },
     { img: matlab, label: "MATLAB" },
     { img: matlab, label: "MATLAB Simulink" },
+    { img: eagle, label: "EagleCAD" },
+
     { img: cpp, label: "C++" },
     { img: cst, label: "CST Studio" },
     { img: excel, label: "Excel" },
@@ -49,54 +30,65 @@ export const Skills = () => {
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
 
-              {/* 🔹 TECHNICAL SKILLS */}
               <div className="skills-section">
                 <h4>Technical Skills</h4>
+
                 <ul className="skills-list">
-                  <li>RF & Mixed Signal Measurement (Spectrum Analyzer, VNA, Oscilloscope basics)</li>
-                  <li>Wireless Systems: 4G, 5G, OFDM, MIMO</li>
-                  <li>Modulation Behaviour, Digital Modulation & Signal Analysis</li>
-                  <li>SDR Experimentation & Waveform Analysis</li>
-                  <li>Data Analysis, Automation & Signal Processing</li>
-                  <li>Modelling & Simulation (MATLAB Simulink, CST - Basics)</li>
+                  <li>
+                    RF & Mixed Signal Measurement using Spectrum Analyzer,
+                    VNA and Oscilloscope
+                  </li>
+                  <li>Wireless Systems: 4G, 5G, OFDM and MIMO</li>
+                  <li>
+                    Modulation Behaviour, Digital Modulation and Signal
+                    Analysis
+                  </li>
+                  <li>SDR Experimentation and Waveform Analysis</li>
+                  <li>Data Analysis, Automation and Signal Processing</li>
+                  <li>
+                    Modelling and Simulation using MATLAB Simulink and CST
+                  </li>
                 </ul>
               </div>
 
-              {/* 🔹 TOOLS CAROUSEL */}
               <div className="skills-section">
                 <h4>Programming & Tools</h4>
 
-                <Carousel
-                  responsive={responsive}
-                  infinite={true}
-                  className="owl-carousel owl-theme skill-slider"
-                >
+                <div className="row g-4 justify-content-center">
                   {tools.map(({ img, label }, index) => (
-                    <div className="item" key={`${label}-${index}`}>
-                      <img src={img} alt={label} />
-                      <h3>{label}</h3>
+                    <div
+                      className="col-6 col-md-4 col-lg-3"
+                      key={`${label}-${index}`}
+                    >
+                      <div className="item">
+                        <img className="toolImage" src={img} alt={label} />
+                        <h3>{label}</h3>
+                      </div>
                     </div>
                   ))}
-                </Carousel>
+                </div>
               </div>
 
-              {/* 🔹 SOFT SKILLS */}
               <div className="skills-section">
                 <h4>Soft Skills</h4>
+
                 <ul className="skills-list">
-                  <li>Analytical Thinking & Problem Solving</li>
-                  <li>Clear Communication & Team Collaboration</li>
+                  <li>Analytical Thinking and Problem Solving</li>
+                  <li>Clear Communication and Team Collaboration</li>
                   <li>Structured and Reliable Working Style</li>
                   <li>Fast Learning Ability</li>
                 </ul>
               </div>
-
             </div>
           </div>
         </div>
       </div>
 
-      <img className="background-image-left" src={colorSharp} alt="" />
+      <img
+        className="background-image-left"
+        src={colorSharp}
+        alt=""
+      />
     </section>
   );
 };

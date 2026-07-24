@@ -5,7 +5,6 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
-import { NetworkBackground } from "./components/NetworkBackground";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Routes, Route } from "react-router-dom";
@@ -27,7 +26,6 @@ function HomePage() {
 function App() {
   return (
     <div className="App app-shell">
-      <NetworkBackground />
       <div className="app-content">
         <Routes>
           <Route path="/" element={<HomePage />} />

@@ -1,5 +1,40 @@
 export const projectsData = [
   {
+  slug: "satellite-modem-test-automation",
+  title: "Python Based Satellite Modem Test Automation Framework",
+  subtitle: "RF System Verification | Python Automation | Software Testing",
+  date: "Add Project Date",
+
+  shortDescription:
+    "Python based automation framework for verifying satellite modem RF performance against configurable engineering requirements using automated testing, simulation, and report generation.",
+
+  skills: [
+    "Python",
+    "RF System Verification",
+    "Satellite Communications",
+    "Test Automation",
+    "Software Testing",
+    "SNR",
+    "BER",
+    "Latency",
+    "Throughput",
+    "YAML",
+    "Logging",
+    "CSV Data Processing",
+    "PDF Report Generation",
+    "Modem Simulation",
+  ],
+
+  details: [
+    "Designed and developed a Python based automation framework to verify satellite modem RF performance against configurable engineering requirements.",
+    "Implemented automated validation of Signal to Noise Ratio, Bit Error Rate, latency, and throughput with automatic PASS and FAIL evaluation.",
+    "Developed a modular software architecture using Python, YAML configuration files, logging, CSV data storage, and automated PDF verification report generation.",
+    "Built a satellite modem simulator to emulate realistic PASS and FAIL scenarios, enabling verification of the automation logic without physical hardware.",
+    "Implemented timestamped execution history and structured verification reports aligned with industrial RF testing workflows.",
+    "Designed the framework to support future integration with real RF instruments and satellite modem hardware.",
+  ],
+},
+  {
     slug: "near-field-far-field-transformation",
     title: "Near Field Measurements and Far Field Transformation of a Large Parabolic Antenna",
     subtitle: "RF Measurement and Antenna Characterization",

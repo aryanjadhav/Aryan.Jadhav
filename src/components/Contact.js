@@ -7,10 +7,7 @@ export const Contact = () => {
   const email = "aryanjadhav98@gmail.com";
 
   const linkedinUrl = "https://www.linkedin.com/in/aryanjadhav26/";
-  const githubUrl = "https://github.com/ankita2002/ankita.upadhyay";
-  //const codechefUrl = "https://www.codechef.com/users/ankita2008";
-  //const leetcodeUrl = "https://leetcode.com/u/ankita2008/";
-  //const kaggleUrl = "https://www.kaggle.com/ankita2002";
+  const githubUrl = "https://github.com/aryanjadhav";
   const Resume = "https://drive.google.com/drive/u/0/folders/1wr4bm2Gz5YfTk3YDRH0u9bItflRINrs0";
   const handleEmailClick = () => {
     window.location.href = `mailto:${email}`;

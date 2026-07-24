@@ -10,16 +10,19 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center container">
           <Col size={10} sm={5}>
-          <p>aryanjadhav98@gmail.com</p>
+            <p>aryanjadhav98@gmail.com</p>
+            <p>The Website was Developed by Ankita Upadhyay</p>
           </Col>
+
           <Col size={10} sm={5} className="text-center text-sm-end">
             <div className="social-icon">
-              <a href="https://www.linkedin.com/in/aryanjadhav26/"><img src={navIcon1} alt="LinkedIn" /></a>
-              
+              <a href="https://www.linkedin.com/in/aryanjadhav26/">
+                <img src={navIcon1} alt="LinkedIn" />
+              </a>
             </div>
           </Col>
         </Row>
       </Container>
     </footer>
-  )
-}
+  );
+};

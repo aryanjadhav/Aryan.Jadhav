@@ -1,21 +1,6 @@
 export const ResearchPublications = () => {
   const researchData = [
-    {
-      title: "Saathi - An AI Chatbot",
-      type: "Research Paper",
-      year: "June 2023",
-      publication:
-        "IEEE National Student’s Conference on Innovation in Rural Development, SSGMCE",
-      link: "https://ssgmjournal.in/index.php/ssgm/article/view/79",
-    },
-    {
-      title: "Face Mask Detection and Attendance System",
-      type: "Survey Paper",
-      year: "March 2021",
-      publication:
-        "International Journal of Scientific and Research Publications",
-      link: "https://www.ijsrp.org/research-paper-0321.php?rp=P11111091",
-    },
+    
   ];
 
   return (
@@ -45,14 +30,6 @@ export const ResearchPublications = () => {
         <div className="research-header">
           <h2>Research Publications</h2>
 
-          <a
-            href="https://scholar.google.com/citations?user=EAKww08AAAAJ&hl=en"
-            target="_blank"
-            rel="noreferrer"
-            className="scholar-btn"
-          >
-            Google Scholar
-          </a>
         </div>
 
         <div className="research-table-wrapper">
