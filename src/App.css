@@ -1622,3 +1622,131 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     scroll-behavior: auto !important;
   }
 }
+
+.tool-categories {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.tool-category {
+  margin-bottom: 48px;
+}
+
+.tool-category-heading {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.tool-category-icon {
+  color: #172a50;
+  font-size: 28px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.tool-category-divider {
+  width: 4px;
+  height: 32px;
+  margin-right: 14px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #6045ff, #27b7ff);
+}
+
+.tool-category-heading h5 {
+  margin: 0;
+  color: #172a50;
+  font-size: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.tool-category-line {
+  flex: 1;
+  height: 1px;
+  margin-left: 22px;
+  background-color: rgba(23, 42, 80, 0.3);
+}
+
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(120px, 1fr));
+  gap: 32px 24px;
+}
+
+.tool-item {
+  text-align: center;
+}
+
+.tool-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 105px;
+  margin-bottom: 12px;
+}
+
+.tool-item .toolImage {
+  width: auto;
+  max-width: 100px;
+  height: auto;
+  max-height: 95px;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.tool-item:hover .toolImage {
+  transform: scale(1.08);
+}
+
+.tool-item p {
+  margin: 0;
+  color: #172a50;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .tools-grid {
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .tools-grid {
+    grid-template-columns: repeat(3, minmax(90px, 1fr));
+  }
+
+  .tool-category-heading h5 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tools-grid {
+    grid-template-columns: repeat(2, minmax(90px, 1fr));
+  }
+
+  .tool-category-line {
+    display: none;
+  }
+
+  .tool-category-heading h5 {
+    white-space: normal;
+  }
+}
+
+.skills-section:has(.tool-categories) {
+  background-color: #ffffff;
+  padding: 35px;
+  border-radius: 20px;
+}
+
+.tool-categories,
+.tool-category,
+.tools-grid,
+.tool-item {
+  background-color: #ffffff;
+}

@@ -22,6 +22,36 @@ export const Skills = () => {
     { img: powerpoint, label: "PowerPoint" },
   ];
 
+  const toolCategories = [
+  {
+    title: "Engineering & Simulation",
+    icon: "⚙",
+    tools: [
+      { img: matlab, label: "MATLAB" },
+      { img: matlab, label: "MATLAB Simulink" },
+      { img: cst, label: "CST Studio" },
+      { img: eagle, label: "EagleCAD" },
+    ],
+  },
+  {
+    title: "Programming & Development",
+    icon: "⌨",
+    tools: [
+      { img: python, label: "Python" },
+      { img: pandas, label: "NumPy & Pandas" },
+      { img: cpp, label: "C++" },
+    ],
+  },
+  {
+    title: "Productivity",
+    icon: "▥",
+    tools: [
+      { img: excel, label: "Microsoft Excel" },
+      { img: powerpoint, label: "Microsoft PowerPoint" },
+    ],
+  },
+];
+
   return (
     <section className="skill" id="skills">
       <div className="container">
@@ -52,22 +82,33 @@ export const Skills = () => {
               </div>
 
               <div className="skills-section">
-                <h4>Programming & Tools</h4>
+  <h4>Programming & Tools</h4>
 
-                <div className="row g-4 justify-content-center">
-                  {tools.map(({ img, label }, index) => (
-                    <div
-                      className="col-6 col-md-4 col-lg-3"
-                      key={`${label}-${index}`}
-                    >
-                      <div className="item">
-                        <img className="toolImage" src={img} alt={label} />
-                        <h3>{label}</h3>
-                      </div>
-                    </div>
-                  ))}
-                </div>
+  <div className="tool-categories">
+    {toolCategories.map((category) => (
+      <div className="tool-category" key={category.title}>
+        <div className="tool-category-heading">
+          <span className="tool-category-icon">{category.icon}</span>
+          <span className="tool-category-divider"></span>
+          <h5>{category.title}</h5>
+          <span className="tool-category-line"></span>
+        </div>
+
+        <div className="tools-grid">
+          {category.tools.map(({ img, label }) => (
+            <div className="tool-item" key={label}>
+              <div className="tool-image-container">
+                <img className="toolImage" src={img} alt={label} />
               </div>
+
+              <p>{label}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
 
               <div className="skills-section">
                 <h4>Soft Skills</h4>
