@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6f74d6b3.css",
+    "main.js": "/static/js/main.6d34dfb5.js",
+    "static/js/453.1ebc3e3a.chunk.js": "/static/js/453.1ebc3e3a.chunk.js",
+    "static/media/color-sharp.png": "/static/media/color-sharp.bea361cfef80fefc2d1e.png",
+    "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
+    "static/media/react.png": "/static/media/react.81ed438b18e24116794d.png",
+    "static/media/opencv.png": "/static/media/opencv.1bc26191489b0ec78cb0.png",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/ankita.jpeg": "/static/media/ankita.2d6378311b1a9f49bd0c.jpeg",
+    "static/media/python.png": "/static/media/python.ebddd128d5f6b9659464.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.67ac0c1694ff8db9305f.png",
+    "static/media/deeplearning.jpg": "/static/media/deeplearning.c2e8d04eb2fed2bf1be8.jpg",
+    "static/media/jpg": "/static/media/abfb81dd541b6c3359233a1c249fe5bb.ff88ac6b80c691305573.jpg",
+    "static/media/nltk.png": "/static/media/nltk.86f8abc4aa0c0f5c7098.png",
+    "static/media/contact-img.svg": "/static/media/contact-img.62aa99e0f3b968b5d1ce9eb047f34fc7.svg",
+    "static/media/flask.jpg": "/static/media/flask.444753edd0b30876d8c0.jpg",
+    "static/media/html.png": "/static/media/html.9b674892ef5960bafca3.png",
+    "static/media/logo1.png": "/static/media/logo1.84c49f750194c68ccf6c.png",
+    "static/media/javascript.png": "/static/media/javascript.49af7f28ec2699f6d7f5.png",
+    "static/media/Mysql.png": "/static/media/Mysql.a04abbf76b39676bc4d9.png",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/csharp.svg": "/static/media/csharp.04d9d2bb18b9781567f7340691dcc686.svg",
+    "static/media/nav-icon3.svg": "/static/media/nav-icon3.72cef43bc93b04f52e29f022ef720f8b.svg",
+    "static/media/nav-icon1.svg": "/static/media/nav-icon1.dff40ae802524d8fc0cbce3f312abe4f.svg",
+    "index.html": "/index.html",
+    "static/media/nav-icon2.svg": "/static/media/nav-icon2.a39f0e5e47e442dafcc5c9c320f19f6f.svg",
+    "main.6f74d6b3.css.map": "/static/css/main.6f74d6b3.css.map",
+    "main.6d34dfb5.js.map": "/static/js/main.6d34dfb5.js.map",
+    "453.1ebc3e3a.chunk.js.map": "/static/js/453.1ebc3e3a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f74d6b3.css",
+    "static/js/main.6d34dfb5.js"
+  ]
+}
