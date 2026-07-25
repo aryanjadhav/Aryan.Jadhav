@@ -7,6 +7,7 @@ import powerpoint from "../assets/img/PowerPoint.png";
 import matlab from "../assets/img/Matlab_Logo.png";
 import colorSharp from "../assets/img/color-sharp.png";
 import eagle from "../assets/img/Eagle.png";
+import KiCAD from "../assets/img/KICAD.png";
 
 export const Skills = () => {
   const tools = [
@@ -15,6 +16,7 @@ export const Skills = () => {
     { img: matlab, label: "MATLAB" },
     { img: matlab, label: "MATLAB Simulink" },
     { img: eagle, label: "EagleCAD" },
+    { img: KiCAD, label: "KICAD" },
 
     { img: cpp, label: "C++" },
     { img: cst, label: "CST Studio" },
