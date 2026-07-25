@@ -2200,3 +2200,58 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     text-align: left;
   }
 }
+
+.mobile-carousel-nav {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.mobile-carousel-nav .react-multi-carousel-list {
+  width: 100%;
+}
+
+.mobile-carousel-nav .react-multi-carousel-track {
+  align-items: stretch;
+}
+
+.mobile-carousel-nav .react-multi-carousel-item {
+  display: flex;
+}
+
+.mobile-carousel-nav .nav-item {
+  display: flex;
+  width: 100%;
+}
+
+.mobile-carousel-nav .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 58px;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+
+.mobile-carousel-nav .nav-link.active {
+  color: #ffffff;
+  background: linear-gradient(
+    90.21deg,
+    #aa367c,
+    #4a2fbd
+  );
+  border: 1px solid #ffffff;
+}
+
+@media (max-width: 768px) {
+  .project .tab-content {
+    width: 100%;
+    min-height: 100px;
+  }
+
+  .project .tab-pane {
+    width: 100%;
+  }
+}
