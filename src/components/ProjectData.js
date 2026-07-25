@@ -5,6 +5,7 @@ export const projectsData = [
   subtitle: "RF System Verification | Python Automation | Software Testing",
   date: "June 2026",
   type: "Masters",
+  priority: "2",
 
   shortDescription:
     "Python based automation framework for verifying satellite modem RF performance against configurable engineering requirements using automated testing, simulation, and report generation.",
@@ -40,7 +41,9 @@ export const projectsData = [
     title: "Near Field Measurements and Far Field Transformation of a Large Parabolic Antenna",
     subtitle: "RF Measurement and Antenna Characterization",
     date: "March 2024 – August 2025",
-      type: "Masters",
+    type: "Masters",
+    priority: "1",
+
 
     shortDescription:
       "Team project focused on near field RF measurements, data acquisition, and MATLAB based far field transformation of a 4.5 meter parabolic antenna.",
@@ -73,6 +76,7 @@ export const projectsData = [
     subtitle: "MATLAB Simulink and SDR Based RF Signal Analysis",
     date: "January 2025 – June 2025",
     type: "Masters",
+    priority: "4",
 
     shortDescription:
       "Project involving RF measurement setups, OFDM analysis, mixed signal impairment study, and SDR based receiver implementation for wireless communication systems.",
@@ -104,6 +108,8 @@ export const projectsData = [
     subtitle: "24 GHz Radar Signal Analysis",
     date: "February 2025 – July 2025",
     type: "Masters",
+    priority: "3",
+
 
     shortDescription:
       "Radar based project focused on motion detection using a 24 GHz continuous wave radar module and signal behaviour analysis across multiple motion scenarios.",
@@ -133,6 +139,8 @@ export const projectsData = [
     "Human Machine Interface and UI/UX Design | Darmstadt University of Applied Sciences",
   date: "November 2024 – January 2025",
   type: "Masters",
+  priority: "5",
+
 
   shortDescription:
     "Interactive Human Machine Interface prototype for centralized monitoring and control of smart vertical farming operations.",
@@ -165,6 +173,8 @@ export const projectsData = [
     subtitle: "Pose Estimation and Embedded Workout Assistant",
     date: "September 2022 – February 2023",
     type: "Bachelors",
+   priority: "6",
+
 
     shortDescription:
       "Real time workout assistant built on Raspberry Pi using computer vision, pose estimation, and embedded integration for movement analysis.",
@@ -194,6 +204,7 @@ export const projectsData = [
   subtitle: "Embedded Wearable Health and Environment Monitoring System",
   date: "October 2021 – February 2022",
   type: "Bachelors",
+  priority: "7",
 
   shortDescription:
     "Smart wearable military uniform integrating embedded sensors, energy harvesting concepts, and real time monitoring of soldier health and environmental conditions.",
@@ -226,7 +237,8 @@ export const projectsData = [
   subtitle: "Arduino Based Automated Contactless Disinfection System",
   date: "November 2020 – September 2021",
   type: "Bachelors",
-
+  priority: "8",
+  
   shortDescription:
     "Automated sanitization tunnel developed using Arduino Uno, sensors, and embedded control for contactless disinfection in public spaces.",
 
