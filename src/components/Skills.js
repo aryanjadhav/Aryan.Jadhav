@@ -7,19 +7,25 @@ import powerpoint from "../assets/img/PowerPoint.png";
 import matlab from "../assets/img/Matlab_Logo.png";
 import colorSharp from "../assets/img/color-sharp.png";
 import eagle from "../assets/img/Eagle.png";
+import LTSpice from "../assets/img/LTSpice.png";
 import KiCAD from "../assets/img/KICAD.png";
+import Autodesk from "../assets/img/autodeskAutocad.png";
+import eclipse from "../assets/img/eclipse.png";
+import DS from "../assets/img/DSsolidworks.png";
+import git from "../assets/img/git.png";
+import github from "../assets/img/github .png";
+import Simulink from "../assets/img/simulink.png";
+import arduino from "../assets/img/arduino.png";
+import raspberrypi from "../assets/img/RaspberryPi.png";
+import proteus from "../assets/img/proteus.png";
+import ardui2no from "../assets/img/arduino.png";
+import ardu3ino from "../assets/img/arduino.png";
+import ardu4ino from "../assets/img/arduino.png";
+import DiiS from "../assets/img/DSsolidworks.png";
+
+
 
 export const Skills = () => {
-  const tools = [
-    { img: python, label: "Python" },
-    { img: pandas, label: "NumPy & Pandas" },
-    { img: matlab, label: "MATLAB" },
-    { img: matlab, label: "MATLAB Simulink" },
-    { img: cpp, label: "C++" },
-    { img: cst, label: "CST Studio" },
-    { img: excel, label: "Excel" },
-    { img: powerpoint, label: "PowerPoint" },
-  ];
 
   const toolCategories = [
   {
@@ -27,11 +33,15 @@ export const Skills = () => {
     icon: "⚙",
     tools: [
       { img: matlab, label: "MATLAB" },
-      { img: matlab, label: "MATLAB Simulink" },
+      { img: Simulink, label: "MATLAB Simulink" },
       { img: cst, label: "CST Studio" },
       { img: eagle, label: "EagleCAD" },
-      { img: eagle, label: "EagleCAD" },
+      { img: LTSpice, label: "LTSpice" },
       { img: KiCAD, label: "KICAD" },
+      { img: Autodesk, label: " AUTOCAD" },
+      { img: DS, label: " DS SolidWorks" },
+      { img: proteus, label: "Proteus IDE" },
+
     ],
   },
   {
@@ -40,7 +50,19 @@ export const Skills = () => {
     tools: [
       { img: python, label: "Python" },
       { img: pandas, label: "NumPy & Pandas" },
-      { img: cpp, label: "C++" },
+      { img: cpp, label: "C/C++" },
+      { img: eclipse, label: "Eclipse IDE" },
+      { img: git, label: "Git" },
+      { img: github, label: "Github" },
+
+    ],
+  },
+  {
+    title: "Embedded Systems",
+    icon: "▥",
+    tools: [
+      { img: arduino, label: "Arduino IDE" },
+      { img: raspberrypi, label: "RaspberryPi" },
     ],
   },
   {

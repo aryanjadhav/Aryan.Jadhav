@@ -28,7 +28,7 @@ export const ResearchPublications = () => {
           </div>
         </div>
         <div className="research-header">
-          <h2>Research Publications</h2>
+          <h2>Technical Conferences</h2>
 
         </div>
 
@@ -37,9 +37,7 @@ export const ResearchPublications = () => {
             <thead>
               <tr>
                 <th>Title</th>
-                <th>Type</th>
                 <th>Year</th>
-                <th>Publication</th>
                 <th>Link</th>
               </tr>
             </thead>
@@ -48,9 +46,7 @@ export const ResearchPublications = () => {
               {researchData.map((paper, index) => (
                 <tr key={index}>
                   <td>{paper.title}</td>
-                  <td>{paper.type}</td>
                   <td>{paper.year}</td>
-                  <td>{paper.publication}</td>
                   <td>
                     <a
                       href={paper.link}
