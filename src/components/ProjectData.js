@@ -127,6 +127,39 @@ export const projectsData = [
   },
 
   {
+  slug: "smart-vertical-farming-hmi",
+  title: "Smart Vertical Farming HMI",
+  subtitle:
+    "Human Machine Interface and UI/UX Design | Darmstadt University of Applied Sciences",
+  date: "November 2024 – January 2025",
+  type: "Masters",
+
+  shortDescription:
+    "Interactive Human Machine Interface prototype for centralized monitoring and control of smart vertical farming operations.",
+
+  skills: [
+    "Human Machine Interface",
+    "UI/UX Design",
+    "Axure",
+    "UML",
+    "System Modelling",
+    "Interactive Prototyping",
+    "Smart Farming",
+    "Dashboard Design",
+    "Usability Testing",
+    "User Centered Design",
+  ],
+
+  details: [
+    "Designed an interactive Human Machine Interface prototype for smart vertical farming, enabling centralized monitoring and control of irrigation, lighting, ventilation, temperature, and humidity.",
+    "Developed high fidelity UI and UX prototypes in Axure using UML based system modelling.",
+    "Integrated weather information, task scheduling, multilingual support, and user feedback features into the interface.",
+    "Improved operational efficiency by simplifying farm management through an intuitive centralized dashboard.",
+    "Validated the interface design through interactive usability prototypes and user centered evaluation.",
+  ],
+},
+
+  {
     slug: "ai-gym-buddy",
     title: "AI Gym Buddy",
     subtitle: "Pose Estimation and Embedded Workout Assistant",
@@ -154,4 +187,67 @@ export const projectsData = [
       "Integrated multiple Arduino based robotic platforms, combining embedded control with computer vision to deliver a unified prototype.",
     ],
   },
+
+{
+  slug: "smart-e-textile-uniform",
+  title: "Smart E Textile Uniform for Indian Army",
+  subtitle: "Embedded Wearable Health and Environment Monitoring System",
+  date: "October 2021 – February 2022",
+  type: "Bachelors",
+
+  shortDescription:
+    "Smart wearable military uniform integrating embedded sensors, energy harvesting concepts, and real time monitoring of soldier health and environmental conditions.",
+
+  skills: [
+    "Embedded Systems",
+    "Wearable Electronics",
+    "E Textiles",
+    "LPC2138",
+    "Keil uVision",
+    "Proteus",
+    "Sensor Integration",
+    "Firmware Development",
+    "Circuit Simulation",
+    "Energy Harvesting",
+    "Health Monitoring",
+  ],
+
+  details: [
+    "Designed a smart wearable military uniform integrating embedded sensors for real time monitoring of soldier health and environmental conditions.",
+    "Developed the embedded system using LPC2138, Keil uVision, and Proteus for sensor interfacing, firmware development, and circuit simulation.",
+    "Integrated wearable electronics with embedded monitoring components to demonstrate a practical military safety solution.",
+    "Incorporated energy harvesting concepts to support the development of a self powered monitoring system for defense applications.",
+  ],
+},
+
+{
+  slug: "covid-19-sanitization-tunnel",
+  title: "COVID 19 Sanitization Tunnel",
+  subtitle: "Arduino Based Automated Contactless Disinfection System",
+  date: "November 2020 – September 2021",
+  type: "Bachelors",
+
+  shortDescription:
+    "Automated sanitization tunnel developed using Arduino Uno, sensors, and embedded control for contactless disinfection in public spaces.",
+
+  skills: [
+    "Arduino Uno",
+    "Embedded Systems",
+    "Embedded Programming",
+    "Sensor Integration",
+    "Proteus",
+    "Circuit Design",
+    "Automation",
+    "Real Time Control",
+    "Public Safety Systems",
+    "Hardware Prototyping",
+  ],
+
+  details: [
+    "Designed and developed an automated sanitization tunnel using Arduino Uno for contactless disinfection in public spaces during the COVID 19 pandemic.",
+    "Built the complete control system by integrating sensors, embedded programming, and electronic circuit design.",
+    "Used Proteus to design and simulate the electronic control circuit before hardware implementation.",
+    "Demonstrated a scalable embedded solution for automated public health and safety applications through real time sensing and control.",
+  ],
+},
 ];
