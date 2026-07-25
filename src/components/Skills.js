@@ -104,8 +104,8 @@ export const Skills = () => {
                 </ul>
               </div>
 
-              <div className="skills-section">
-  <h4>Programming & Tools</h4>
+<div className="skills-section tools-section">
+    <h4>Programming & Tools</h4>
 
   <div className="tool-categories">
     {toolCategories.map((category) => (
