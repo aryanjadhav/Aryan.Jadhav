@@ -15,9 +15,6 @@ export const Skills = () => {
     { img: pandas, label: "NumPy & Pandas" },
     { img: matlab, label: "MATLAB" },
     { img: matlab, label: "MATLAB Simulink" },
-    { img: eagle, label: "EagleCAD" },
-    { img: KiCAD, label: "KICAD" },
-
     { img: cpp, label: "C++" },
     { img: cst, label: "CST Studio" },
     { img: excel, label: "Excel" },
@@ -33,6 +30,8 @@ export const Skills = () => {
       { img: matlab, label: "MATLAB Simulink" },
       { img: cst, label: "CST Studio" },
       { img: eagle, label: "EagleCAD" },
+      { img: eagle, label: "EagleCAD" },
+      { img: KiCAD, label: "KICAD" },
     ],
   },
   {
