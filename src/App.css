@@ -1317,6 +1317,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(0, 198, 255, 0.24);
 }
 
+.project-modern-type {
+  display: inline-flex;
+  align-items: center;
+  align-self: flex-start;
+  width: fit-content;
+  margin-right: auto;
+  padding: 8px 14px;
+  color: #ffd8f3;
+  font-size: 13px;
+  font-weight: 600;
+  background: rgba(248, 3, 162, 0.15);
+  border: 1px solid rgba(255, 0, 200, 0.45);
+  border-radius: 999px;
+}
+
 .project-modern-title {
   font-size: 30px;
   font-weight: 700;
@@ -1748,4 +1763,210 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .tools-grid,
 .tool-item {
   background-color: #ffffff;
+}
+
+.clean-list a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.clean-list a:hover {
+  text-decoration: underline;
+}
+
+.leadership-section {
+  padding: 48px;
+}
+
+.leadership-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.leadership-heading h3 {
+  margin: 4px 0 0;
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.section-label {
+  color: #9c9c9c;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.leadership-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding: 28px;
+  overflow: hidden;
+  background: #292929;
+  border: 1px solid #414141;
+  border-radius: 18px;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.leadership-card::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  content: "";
+  background: linear-gradient(90deg, #6f8cff, #8d5cff);
+}
+
+.leadership-card:hover {
+  border-color: #6f8cff;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.25);
+  transform: translateY(-6px);
+}
+
+.leadership-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.leadership-number {
+  color: #7f96ff;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.leadership-date {
+  padding: 7px 11px;
+  color: #cfcfcf;
+  font-size: 12px;
+  white-space: nowrap;
+  background: #202020;
+  border: 1px solid #3e3e3e;
+  border-radius: 30px;
+}
+
+.leadership-card h4 {
+  margin: 0 0 8px;
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.leadership-organization {
+  display: block;
+  min-height: 50px;
+  margin: 0 0 22px;
+  color: #9caeff;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.leadership-link {
+  width: fit-content;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.leadership-link:hover {
+  color: #c4ceff;
+}
+
+.leadership-link span {
+  display: inline-block;
+  margin-left: 4px;
+  transition: transform 0.25s ease;
+}
+
+.leadership-link:hover span {
+  transform: translate(3px, -3px);
+}
+
+.leadership-details {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.leadership-details li {
+  position: relative;
+  padding-left: 18px;
+  color: #d0d0d0;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.leadership-details li::before {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  content: "";
+  background: #7f96ff;
+  border-radius: 50%;
+}
+
+.featured-leadership-card {
+  background:
+    linear-gradient(
+      145deg,
+      rgba(111, 140, 255, 0.12),
+      rgba(41, 41, 41, 1) 45%
+    );
+}
+
+@media (max-width: 1100px) {
+  .leadership-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .leadership-organization {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .leadership-section {
+    padding: 28px 20px;
+  }
+
+  .leadership-heading h3 {
+    font-size: 30px;
+  }
+
+  .leadership-card {
+    padding: 22px;
+  }
+
+  .leadership-card-top {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .leadership-card h4 {
+    font-size: 22px;
+  }
 }

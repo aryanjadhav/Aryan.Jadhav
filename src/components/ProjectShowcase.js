@@ -10,6 +10,9 @@ const ProjectItem = ({ project }) => {
     <Col xs={12} md={6} lg={6} className="mb-4">
       <div className="project-modern-card">
         <div className="project-modern-top">
+          {project.type && ( < span className="project-modern-type">  {project.type} </span>)}
+        </div>
+        <div className="project-modern-top">
           <span className="project-modern-date">{project.date}</span>
         </div>
 

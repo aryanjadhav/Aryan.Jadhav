@@ -18,13 +18,14 @@ export const ResearchPublications = () => {
             <p className="edu-modules">
               <strong>Modules:</strong> Wireless and Mobile Communication, Antenna & Microwave Systems, Advanced DSP, Advanced Modulation, System & Hardware Design
             </p>
+            <p><strong>Grade:</strong> 2.3</p>
           </div>
 
           <div className="education-card">
             <h3>Bachelor of Engineering in Electronics and Telecommunication</h3>
             <p><strong>University:</strong> Pillai College of Engineering, India</p>
             <p><strong>Duration:</strong> June 2019 – February 2023</p>
-            <p><strong>Grade:</strong> 1.6 (Sehr Gut)</p>
+            <p><strong>Grade:</strong> 1.6</p>
           </div>
         </div>
         <div className="research-header">
@@ -36,7 +37,7 @@ export const ResearchPublications = () => {
           <table className="research-table">
             <thead>
               <tr>
-                <th>Title</th>
+                <th>Conference</th>
                 <th>Year</th>
                 <th>Link</th>
               </tr>

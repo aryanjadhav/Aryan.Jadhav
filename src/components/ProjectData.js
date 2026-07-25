@@ -3,7 +3,8 @@ export const projectsData = [
   slug: "satellite-modem-test-automation",
   title: "Python Based Satellite Modem Test Automation Framework",
   subtitle: "RF System Verification | Python Automation | Software Testing",
-  date: "Add Project Date",
+  date: "June 2026",
+  type: "Masters",
 
   shortDescription:
     "Python based automation framework for verifying satellite modem RF performance against configurable engineering requirements using automated testing, simulation, and report generation.",
@@ -39,6 +40,7 @@ export const projectsData = [
     title: "Near Field Measurements and Far Field Transformation of a Large Parabolic Antenna",
     subtitle: "RF Measurement and Antenna Characterization",
     date: "March 2024 – August 2025",
+      type: "Masters",
 
     shortDescription:
       "Team project focused on near field RF measurements, data acquisition, and MATLAB based far field transformation of a 4.5 meter parabolic antenna.",
@@ -70,6 +72,7 @@ export const projectsData = [
     title: "Advanced Modulation and SDR Measurement",
     subtitle: "MATLAB Simulink and SDR Based RF Signal Analysis",
     date: "January 2025 – June 2025",
+    type: "Masters",
 
     shortDescription:
       "Project involving RF measurement setups, OFDM analysis, mixed signal impairment study, and SDR based receiver implementation for wireless communication systems.",
@@ -100,6 +103,7 @@ export const projectsData = [
     title: "Motion Detection using Continuous Wave Radar",
     subtitle: "24 GHz Radar Signal Analysis",
     date: "February 2025 – July 2025",
+    type: "Masters",
 
     shortDescription:
       "Radar based project focused on motion detection using a 24 GHz continuous wave radar module and signal behaviour analysis across multiple motion scenarios.",
@@ -127,6 +131,7 @@ export const projectsData = [
     title: "AI Gym Buddy",
     subtitle: "Pose Estimation and Embedded Workout Assistant",
     date: "September 2022 – February 2023",
+    type: "Bachelors",
 
     shortDescription:
       "Real time workout assistant built on Raspberry Pi using computer vision, pose estimation, and embedded integration for movement analysis.",
