@@ -140,7 +140,7 @@ export const Skills = () => {
                   <li>Analytical Thinking and Problem Solving</li>
                   <li>Clear Communication and Team Collaboration</li>
                   <li>Structured and Reliable Working Style</li>
-                  <li>Fast Learning Ability</li>
+                  <li>Fast Learning Ability </li>
                 </ul>
               </div>
             </div>
