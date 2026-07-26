@@ -4,7 +4,7 @@ import "animate.css";
 import TrackVisibility from "react-on-screen";
 
 export const Contact = () => {
-  const email = "aryanjadhav98@gmail.com";
+  const email = "aryan.jadhav@stud.h-da.de";
 
   const linkedinUrl = "https://www.linkedin.com/in/aryanjadhav26/";
   const githubUrl = "https://github.com/aryanjadhav";
@@ -68,7 +68,7 @@ export const Contact = () => {
     </div>
 
     <div className="social-card-text">
-      <strong>Email: </strong> aryanjadhav98@gmail.com
+      <strong>Email: </strong> aryan.jadhav@stud.h-da.de
     </div>
 
     <div className="social-card-text">

@@ -10,7 +10,7 @@ export const Footer = () => {
       <Container>
         <Row className="align-items-center container">
           <Col size={10} sm={5}>
-            <p>aryanjadhav98@gmail.com</p>
+            <p>aryan.jadhav@stud.h-da.de</p>
             <p>The Website was Developed by Ankita Upadhyay</p>
           </Col>
 
@@ -19,7 +19,7 @@ export const Footer = () => {
               <a href="https://www.linkedin.com/in/aryanjadhav26/">
                 <img src={navIcon1} alt="LinkedIn" />
               </a>
-              <a href="https://x.com/aryanajadhav">
+              <a href="https://x.com/aryanajadhav" target="_blank" rel="noreferrer">
                 <img src={navIcon3} alt="X" />
               </a>
             </div>
