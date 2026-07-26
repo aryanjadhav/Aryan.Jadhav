@@ -71,7 +71,7 @@ export const NavBar = () => {
               <a href="https://www.linkedin.com/in/aryanjadhav26/" target="_blank" rel="noreferrer">
                 <img src={navIcon1} alt="LinkedIn" />
               </a>
-              <a href="https://x.com/aryanajadhav">
+              <a href="https://x.com/aryanajadhav" target="_blank" rel="noreferrer">
                 <img src={navIcon3} alt="X" />
               </a>
             </div>

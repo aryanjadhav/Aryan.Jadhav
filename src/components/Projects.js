@@ -28,6 +28,7 @@ export const Projects = () => {
     };
   }, []);
 
+  
   const responsive = {
     tablet: {
       breakpoint: {
@@ -195,3 +196,4 @@ export const Projects = () => {
     </section>
   );
 };
+
